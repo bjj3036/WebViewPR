@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+<a href="https://www.naver.com" target="_self">네이버로 갈거야!~!</a>
+<form
+        style="margin-top: 700px"
+        action="/test2.html"
+        method="POST">
+    <input type="text"/>
+    <input type="submit" value="제출"/>
+</form>
+</body>
+</html>
