@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 문제 html File 이름 배열 -->
+    <string-array name="problem_file_names">
+        <item>test1.htm</item>
+        <item>test2.htm</item>
+        <item>test3.htm</item>
+        <item>test4.htm</item>
+        <item>test5.htm</item>
+    </string-array>
+</resources>

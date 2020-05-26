@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <script>
+        function getAnswer(){
+            var element = document.querySelector("input[name='answer']:checked");
+            if(element)
+                return element.value;
+            return ""
+        }
+
+    </script>
+</head>
+<body>
+<h2>1번 문제 - 객관식</h2>
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam velit mauris, facilisis sed nibh
+    non, rhoncus faucibus turpis. Maecenas et arcu vulputate, finibus urna at, tincidunt justo.
+    Maecenas viverra sapien nisl, at malesuada sapien lobortis vel. Maecenas dapibus, urna at
+    imperdiet mattis, nisl felis suscipit diam, sed gravida urna odio eget est. Nulla facilisi.
+    Nulla fermentum, velit ac viverra mollis, nisl nunc ultricies tortor, eget ornare libero
+    tortor
+    quis velit. Aliquam erat volutpat. Ut vel bibendum erat. Donec eget semper odio. Vestibulum
+    sagittis pellentesque congue. Nam eu urna a nibh ultrices pulvinar. Ut ac cursus nunc. Curabitur
+    a justo pellentesque, semper sem eu, tincidunt metus.
+</p>
+<label><input type="radio" name="answer" value="1"/> 1. Apple</label><br>
+<label><input type="radio" name="answer" value="2"/> 2. Banana</label><br>
+<label><input type="radio" name="answer" value="3"/> 3. Camera</label><br>
+<label><input type="radio" name="answer" value="4"/> 4. Dog</label><br>
+<label><input type="radio" name="answer" value="5"/> 5. Egg</label><br>
+</body>
+</html>
